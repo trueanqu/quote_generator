@@ -6,29 +6,42 @@ body {
 
 }
 
-.icon {
-
+hr {
+    color: #444;
 }
-.quotation {
+.quote {
     color: white;
     text-align: center;
-    background-image: radial-gradient(ellipse closest-side, #444, transparent 60%);
-    padding-bottom: 5%;
+    //background-image: radial-gradient(ellipse closest-side, #444, transparent 60%);
+    padding-top: 3%;
+    font-size: 130%;
+
 }
 
-.top-level {
-    display: inline-block;
-}
+
 
 .quote-left {
     text-align: center;
-
 }
 
 .fill-height{
     height: 100vh;
 }
 
-.btn {
-    width: 100%;
+.author, .social {
+    font-size: 115%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.quote-footer {
+    padding-bottom: 15px;
+}
+
+.top-level {
+    padding-top: 5%;
+}
+
+a {
+    background: #111;
 }
