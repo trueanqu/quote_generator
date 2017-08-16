@@ -45,3 +45,18 @@ hr {
 a {
     background: #111;
 }
+
+hr.style17 {
+    border-top: 1px solid #aaa;
+    text-align: center;
+}
+hr.style17:after {
+    content: '§';
+    display: inline-block;
+    position: relative;
+    top: -14px;
+    padding: 0 10px;
+    background: black;
+    color: #aaa;
+    font-size: 18px;
+}
