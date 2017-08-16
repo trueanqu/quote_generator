@@ -1,7 +1,34 @@
 body {
-    background-color: aquamarine;
+    background: black ;
+    background: linear-gradient(#7e7e7e, black 2%, black 98%, #7e7e7e 100%) repeat no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
 }
 
-.main-container {
-    background-color: azure;
+.icon {
+
+}
+.quotation {
+    color: white;
+    text-align: center;
+    background-image: radial-gradient(ellipse closest-side, #444, transparent 60%);
+    padding-bottom: 5%;
+}
+
+.top-level {
+    display: inline-block;
+}
+
+.quote-left {
+    text-align: center;
+
+}
+
+.fill-height{
+    height: 100vh;
+}
+
+.btn {
+    width: 100%;
 }
